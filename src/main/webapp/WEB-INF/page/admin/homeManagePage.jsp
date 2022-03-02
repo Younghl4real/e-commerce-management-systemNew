@@ -81,7 +81,7 @@
             });
             //设置日期控件约束
             var date = new Date();
-            date.setDate(date.getDate() - 1);
+            date.setDate(date.getDate());
             var formatDate = FormatDate(date);
             $("#input_endDate").attr("max", formatDate).attr("min", "2018-01-07").val(formatDate);
             date.setDate(date.getDate() - 6);
